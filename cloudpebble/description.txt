@@ -1,0 +1,53 @@
+SHORE - Rebble App Store listing
+
+Wird bei jeder Veroeffentlichung mit aktualisiert. Englisch, weil der Store international ist. Reiner Text, ein Absatz pro Zeile, damit sich die Abschnitte ohne Nacharbeit in die Store-Felder uebernehmen lassen.
+
+-------------------------------------------------------------------------
+
+TITLE
+
+Shore
+
+
+TAGLINE
+
+Big digits, the weather, the date and your steps.
+
+
+DESCRIPTION
+
+Shore sets the time in LECO 1976, the geometric numerals the Pebble was always associated with, drawn far larger than the built-in version allows: hours above minutes, filling the middle of the display, accurate to the minute.
+
+Around the digits sits everything you glance at during the day. At the top a weather symbol with today's low and high temperature in a single line. On the left the weekday, on the right the day of the month. At the bottom your steps for today, marked with a small pair of footprints instead of a label.
+
+Twelve colour templates are one tap away in the settings: Noir, Classic, Swiss, Blush, Berry, Lavender, Mint, Navy, Ocean, Forest, Plum and Sport. Each template is only a starting point. Hours, minutes, text and highlights can each take their own colour afterwards, and the weather and step symbols follow the highlight colour with soft edges.
+
+Weather comes from Open-Meteo for your current location, every 30 minutes. No account and no API key are needed. If the phone stays out of reach for more than three hours, the weather line disappears rather than showing old numbers.
+
+Pebble Round 2 and Pebble Time 2 each get their own layout, so the lines at the top and bottom follow the round rim on one and the straight edges on the other.
+
+
+SETTINGS
+
+- Template - sets all colours at once.
+- Background, Hours, Minutes - the face and the two lines of digits.
+- Text - weekday, low temperature and step count.
+- Highlights - weather and step symbols, high temperature and day of the month.
+- Show - weather, weekday and date, steps; each can be turned off.
+- Weekday - English (Mon, 8,472) or German (Mo, 8.472).
+- Weather symbol - current conditions or today's forecast.
+- Temperature unit - automatic by phone region, Celsius or Fahrenheit.
+
+12 or 24 hour format follows the watch setting.
+
+
+CATEGORY
+
+Watchfaces (Digital)
+
+
+RELEASE NOTES
+
+1.0.0
+
+First release.

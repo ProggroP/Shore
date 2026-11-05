@@ -1,0 +1,211 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Shore"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Big LECO digits, accurate to the minute, with the weather, the date and your steps."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Colours"
+      },
+      {
+        "type": "select",
+        "messageKey": "TEMPLATE",
+        "label": "Template",
+        "defaultValue": "noir",
+        "description": "Picking a template sets all colours below. Change any of them afterwards to make it your own.",
+        "options": [
+          {
+            "label": "Noir (white on black)",
+            "value": "noir"
+          },
+          {
+            "label": "Classic (black on white)",
+            "value": "classic"
+          },
+          {
+            "label": "Swiss (red minutes)",
+            "value": "swiss"
+          },
+          {
+            "label": "Blush",
+            "value": "blush"
+          },
+          {
+            "label": "Berry",
+            "value": "berry"
+          },
+          {
+            "label": "Lavender",
+            "value": "lavender"
+          },
+          {
+            "label": "Mint",
+            "value": "mint"
+          },
+          {
+            "label": "Navy",
+            "value": "navy"
+          },
+          {
+            "label": "Ocean",
+            "value": "ocean"
+          },
+          {
+            "label": "Forest",
+            "value": "forest"
+          },
+          {
+            "label": "Plum",
+            "value": "plum"
+          },
+          {
+            "label": "Sport",
+            "value": "sport"
+          },
+          {
+            "label": "Custom",
+            "value": "custom"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_BG",
+        "label": "Background",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_HOUR",
+        "label": "Hours",
+        "defaultValue": "FFFFFF",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_MINUTE",
+        "label": "Minutes",
+        "defaultValue": "FFFFFF",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_TEXT",
+        "label": "Text (weekday, low, steps)",
+        "defaultValue": "AAAAAA",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_ACCENT",
+        "label": "Highlights (symbols, high, day)",
+        "defaultValue": "FFFFFF",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Show"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_WEATHER",
+        "label": "Weather",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_DATE",
+        "label": "Weekday and date",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_STEPS",
+        "label": "Steps",
+        "defaultValue": true
+      },
+      {
+        "type": "select",
+        "messageKey": "LANGUAGE",
+        "label": "Weekday",
+        "defaultValue": "0",
+        "options": [
+          {
+            "label": "English (Mon, 8,472 steps)",
+            "value": "0"
+          },
+          {
+            "label": "German (Mo, 8.472 steps)",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Weather"
+      },
+      {
+        "type": "select",
+        "messageKey": "WEATHER_SYMBOL",
+        "label": "Weather symbol",
+        "defaultValue": "now",
+        "options": [
+          {
+            "label": "Current conditions",
+            "value": "now"
+          },
+          {
+            "label": "Today's forecast",
+            "value": "today"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "TEMP_UNIT",
+        "label": "Temperature unit",
+        "defaultValue": "auto",
+        "options": [
+          {
+            "label": "Automatic (phone region)",
+            "value": "auto"
+          },
+          {
+            "label": "Celsius",
+            "value": "celsius"
+          },
+          {
+            "label": "Fahrenheit",
+            "value": "fahrenheit"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "defaultValue": "Weather comes from <a href=\"https://open-meteo.com\">Open-Meteo</a> for your current location, every 30 minutes. No account needed. The two numbers are today's low and high."
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]

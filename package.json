@@ -1,0 +1,76 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface",
+        "digital",
+        "weather",
+        "steps"
+    ],
+    "name": "shore",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health",
+            "location"
+        ],
+        "displayName": "Shore",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPLATE",
+            "COLOR_BG",
+            "COLOR_HOUR",
+            "COLOR_MINUTE",
+            "COLOR_TEXT",
+            "COLOR_ACCENT",
+            "SHOW_WEATHER",
+            "SHOW_DATE",
+            "SHOW_STEPS",
+            "LANGUAGE",
+            "TEMP_UNIT",
+            "WEATHER_SYMBOL",
+            "TEMP_LO",
+            "TEMP_HI",
+            "CONDITION",
+            "REQUEST_WEATHER"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/leco1976-pebble.otf",
+                    "name": "FONT_LECO_92",
+                    "type": "font"
+                },
+                {
+                    "file": "images/weather.png",
+                    "memoryFormat": "2BitPalette",
+                    "name": "IMAGE_WEATHER",
+                    "storageFormat": "pbi",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/steps.png",
+                    "memoryFormat": "2BitPalette",
+                    "name": "IMAGE_STEPS",
+                    "storageFormat": "pbi",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "a1f64a24-e097-41c3-ac4b-a83f6833e891",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
